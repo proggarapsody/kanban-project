@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import styles from './select.module.scss';
 import { useOnClickOutside } from './../../../hooks/useOnClickOutside';
 
@@ -25,7 +25,7 @@ const Select = ({ selected, setSelected, options }) => {
       setSelected(e.target.id);
       setIsActive(false);
     },
-    [selected]
+    [setSelected]
   );
 
   return (

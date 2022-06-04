@@ -186,7 +186,14 @@
       "id": "OPEN"
     },
     {
-      "tasks": [],
+      "tasks": [
+        {
+          "id": "d1b6048c-23b8-4bdf-a555-88d2276f6db9",
+          "title": "fdsfd",
+          "description": "fdsfdsfsssssssssssssssssss",
+          "assignee": "1"
+        }
+      ],
       "id": "IN_PROGRESS"
     },
     {

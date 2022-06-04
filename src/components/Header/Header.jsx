@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  {  useState } from 'react';
 import styles from './header.module.scss';
 
 import { observer } from 'mobx-react-lite';

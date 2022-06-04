@@ -1,5 +1,4 @@
 import React, { useCallback, useState } from 'react';
-import UserComponent from '../common/User/User';
 import styles from './task.module.scss';
 import Icon from './../common/Icon/Icon';
 import { Draggable } from 'react-beautiful-dnd';

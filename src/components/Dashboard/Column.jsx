@@ -1,6 +1,5 @@
 import { observer } from 'mobx-react-lite';
 import React, { useCallback } from 'react';
-import { Draggable, Droppable } from 'react-beautiful-dnd';
 import Icon from '../common/Icon/Icon';
 import Task from '../Task/Task';
 import styles from './dashboard.module.scss';
