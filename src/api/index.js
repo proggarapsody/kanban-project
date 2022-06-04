@@ -1,6 +1,6 @@
 import * as qs from 'query-string';
 
-export const DOMAIN = 'http://localhost:3001';
+export const DOMAIN = 'https://rapsody-boards.herokuapp.com/';
 
 class Api {
   constructor(domain) {
@@ -20,11 +20,14 @@ class Api {
   }
 
   async get(url, searchParams = {}) {
-    const res = await fetch(`${this.domain}/${url}?${qs.stringify(searchParams)}`, {
-      headers: {
-        'Content-type': 'application/json',
-      },
-    });
+    const res = await fetch(
+      `${this.domain}/${url}?${qs.stringify(searchParams)}`,
+      {
+        headers: {
+          'Content-type': 'application/json',
+        },
+      }
+    );
     return await res.json();
   }
 
