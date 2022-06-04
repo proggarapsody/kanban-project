@@ -1,0 +1,38 @@
+.select {
+  position: relative;
+  width: 200px;
+  cursor: pointer;
+
+  background-color: #ffffff;
+}
+
+.selectBtn {
+  width: 100%;
+  padding: 5px 8px;
+  text-align: left;
+  border: 2px solid #000000;
+  &:focus {
+    border: 2px solid #000000;
+  }
+}
+
+.selectList {
+  display: flex;
+  flex-direction: column;
+
+  list-style-type: none;
+  top: 40px;
+  border: 1px solid #000000;
+
+  position: absolute;
+  background-color: #ffffff;
+}
+
+.selectItem {
+  list-style-type: none;
+  width: 100%;
+  padding: 8px;
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.155);
+  }
+}

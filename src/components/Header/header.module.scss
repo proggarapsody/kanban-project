@@ -1,0 +1,55 @@
+header {
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100vw;
+
+  border-bottom: 1px solid #0000002d;
+  display: flex;
+  padding: 30px 40px 15px;
+  gap: 50px;
+  margin-bottom: 20px;
+  & select {
+    margin-right: auto;
+  }
+  align-items: center;
+  z-index: 1;
+  justify-content: space-between;
+}
+
+.headerTitle {
+  font-size: 36px;
+  margin-right: auto;
+  white-space: nowrap;
+
+  color: #212121;
+}
+
+.userComponent {
+  // margin-left: auto;
+}
+
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .userComponent {
+    position: absolute;
+    right: 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  header {
+    padding: 30px 20px 15px;
+  }
+  .userComponent {
+    position: absolute;
+    right: 20px;
+  }
+  .headerTitle {
+    font-size: 28px;
+  }
+}

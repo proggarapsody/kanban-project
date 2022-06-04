@@ -1,0 +1,207 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "createdAt": "2021-02-06T18:30:57.479Z",
+      "name": "proggarapsody",
+      "avatar": "https://randomuser.me/api/portraits/lego/4.jpg"
+    },
+    {
+      "id": "2",
+      "createdAt": "2021-02-06T12:45:17.283Z",
+      "name": "Kyla Balistreri",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": "3",
+      "createdAt": "2021-02-06T18:56:16.684Z",
+      "name": "Zachariah Lebsack",
+      "avatar": "https://randomuser.me/api/portraits/men/46.jpg"
+    },
+    {
+      "id": "4",
+      "createdAt": "2021-02-06T15:30:24.161Z",
+      "name": "Ryleigh Powlowski",
+      "avatar": "https://randomuser.me/api/portraits/men/97.jpg"
+    },
+    {
+      "id": "5",
+      "createdAt": "2021-02-06T20:53:27.474Z",
+      "name": "Enid Ruecker",
+      "avatar": "https://randomuser.me/api/portraits/women/63.jpg"
+    },
+    {
+      "id": "6",
+      "createdAt": "2021-02-06T14:09:07.467Z",
+      "name": "Benny Metz",
+      "avatar": "https://randomuser.me/api/portraits/men/86.jpg"
+    },
+    {
+      "id": "7",
+      "createdAt": "2021-02-06T15:33:39.554Z",
+      "name": "Friedrich Runolfsson III",
+      "avatar": "https://randomuser.me/api/portraits/men/89.jpg"
+    },
+    {
+      "id": "8",
+      "createdAt": "2021-02-06T14:40:54.557Z",
+      "name": "Antonina Blanda",
+      "avatar": "https://randomuser.me/api/portraits/men/102.jpg"
+    },
+    {
+      "id": "9",
+      "createdAt": "2021-02-06T21:42:23.045Z",
+      "name": "Liliane Friesen",
+      "avatar": "https://randomuser.me/api/portraits/women/41.jpg"
+    },
+    {
+      "id": "10",
+      "createdAt": "2021-02-07T12:13:19.029Z",
+      "name": "Eliane Olson",
+      "avatar": "https://randomuser.me/api/portraits/women/12.jpg"
+    }
+  ],
+  "boards": [
+    {
+      "id": "MAIN",
+      "title": "Main Board",
+      "columns": [
+        {
+          "id": "BACKLOG",
+          "title": "Backlog"
+        },
+        {
+          "id": "OPEN",
+          "title": "Open"
+        },
+        {
+          "id": "IN_PROGRESS",
+          "title": "In Progress"
+        },
+        {
+          "id": "DONE",
+          "title": "Done"
+        },
+        {
+          "id": "CLOSED",
+          "title": "Closed"
+        }
+      ]
+    },
+    {
+      "id": "DEVELOPMENT",
+      "title": "Development Board",
+      "columns": [
+        {
+          "id": "BACKLOG",
+          "title": "Backlog"
+        },
+        {
+          "id": "OPEN",
+          "title": "Open"
+        },
+        {
+          "id": "IN_PROGRESS",
+          "title": "In Progress"
+        },
+        {
+          "id": "DONE",
+          "title": "Done"
+        },
+        {
+          "id": "CLOSED",
+          "title": "Closed"
+        }
+      ]
+    }
+  ],
+  "me": {
+    "id": "1",
+    "createdAt": "2021-02-06T18:30:57.479Z",
+    "name": "proggarapsody",
+    "avatar": "https://randomuser.me/api/portraits/lego/4.jpg"
+  },
+  "board_main_tasks": [
+    {
+      "tasks": [
+        {
+          "id": "d4112031-fc84-4375-b60d-a430562fb1c9",
+          "title": "fffffffffffffffffffffffff",
+          "description": "ffffffffffffffffffffffffffffff",
+          "assignee": "1"
+        }
+      ],
+      "id": "BACKLOG"
+    },
+    {
+      "tasks": [],
+      "id": "OPEN"
+    },
+    {
+      "tasks": [
+        {
+          "id": "5d1be195-e717-44ab-9f69-ebfbbb0060ed",
+          "title": "fffffffffffffffffffffffff",
+          "description": "ffffffffffffffffffffffffffffff",
+          "assignee": "1"
+        }
+      ],
+      "id": "IN_PROGRESS"
+    },
+    {
+      "tasks": [
+        {
+          "id": "9379c1f8-d82b-4776-8110-8229b39a49f9",
+          "title": "Hello",
+          "description": "fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "assignee": "9"
+        }
+      ],
+      "id": "DONE"
+    },
+    {
+      "tasks": [],
+      "id": "CLOSED"
+    }
+  ],
+  "board_development_tasks": [
+    {
+      "tasks": [
+        {
+          "id": "bc2de093-975c-45f7-86f7-d411efc5f598",
+          "title": "fsdfsd",
+          "description": "fsdfsssssssssssssssssssssssss"
+        }
+      ],
+      "id": "BACKLOG"
+    },
+    {
+      "tasks": [
+        {
+          "id": "f52c51d7-17de-4795-b4e5-d9c6323409cf",
+          "title": "fsdfsd",
+          "description": "fsdfsssssssssssssssssssssssss"
+        }
+      ],
+      "id": "OPEN"
+    },
+    {
+      "tasks": [],
+      "id": "IN_PROGRESS"
+    },
+    {
+      "tasks": [
+        {
+          "id": "a4c8e567-6704-49ed-b00b-ad548e7661cc",
+          "title": "fsdfsd",
+          "description": "fsdfsssssssssssssssssssssssss"
+        }
+      ],
+      "id": "DONE"
+    },
+    {
+      "tasks": [],
+      "id": "CLOSED"
+    }
+  ]
+}
