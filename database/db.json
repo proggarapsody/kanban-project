@@ -134,10 +134,6 @@
       "id": "BACKLOG"
     },
     {
-      "tasks": [],
-      "id": "OPEN"
-    },
-    {
       "tasks": [
         {
           "id": "5d1be195-e717-44ab-9f69-ebfbbb0060ed",
@@ -146,7 +142,15 @@
           "assignee": "1"
         }
       ],
+      "id": "OPEN"
+    },
+    {
+      "tasks": [],
       "id": "IN_PROGRESS"
+    },
+    {
+      "tasks": [],
+      "id": "DONE"
     },
     {
       "tasks": [
@@ -157,16 +161,17 @@
           "assignee": "9"
         }
       ],
-      "id": "DONE"
-    },
-    {
-      "tasks": [],
       "id": "CLOSED"
     }
   ],
   "board_development_tasks": [
     {
       "tasks": [
+        {
+          "id": "f52c51d7-17de-4795-b4e5-d9c6323409cf",
+          "title": "fsdfsd",
+          "description": "fsdfsssssssssssssssssssssssss"
+        },
         {
           "id": "bc2de093-975c-45f7-86f7-d411efc5f598",
           "title": "fsdfsd",
@@ -176,13 +181,7 @@
       "id": "BACKLOG"
     },
     {
-      "tasks": [
-        {
-          "id": "f52c51d7-17de-4795-b4e5-d9c6323409cf",
-          "title": "fsdfsd",
-          "description": "fsdfsssssssssssssssssssssssss"
-        }
-      ],
+      "tasks": [],
       "id": "OPEN"
     },
     {

@@ -1,6 +1,7 @@
 import * as qs from 'query-string';
 
-export const DOMAIN = 'https://rapsody-boards.herokuapp.com/';
+export const DOMAIN = 'https://rapsody-boards.herokuapp.com';
+// export const DOMAIN = 'http://localhost:8000';
 
 class Api {
   constructor(domain) {
